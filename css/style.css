@@ -57,11 +57,25 @@
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 50px;
-  padding-bottom: 300px;
+  padding-bottom: 90px;
   margin-top: 50px;
   color: white;
 }
 #contactUs>h3{
   text-transform: uppercase;
 
+}
+.form-control{
+  background-color: transparent;
+}
+.form-control::placeholder{
+  color: white;
+}
+input#comment{
+  height: 200px;
+}
+input.form-control{
+  border-radius: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
