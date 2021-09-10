@@ -33,3 +33,13 @@
   padding-bottom: 100px;
   padding-top: 100px;
 }
+#whatWeDo{
+  margin-top: 50px;
+}
+#whatWeDo h2{
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+#whatWeDo h3{
+  text-transform: capitalize;
+}
