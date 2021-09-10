@@ -52,3 +52,16 @@
   padding-bottom: 10px;
   text-transform: uppercase;
 }
+#contactUs{
+  background-image: url("../images/backgrounds/c_image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  margin-top: 50px;
+  color: white;
+}
+#contactUs>h3{
+  text-transform: uppercase;
+
+}
