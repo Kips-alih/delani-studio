@@ -24,3 +24,14 @@
 #about h2{
   text-transform: uppercase;
 }
+#services{
+  color: white;
+  background-image: url("../images/backgrounds/s_image.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 50px;
+}
+#services h2{
+  text-transform: uppercase;
+  padding-top: 100px;
+}
