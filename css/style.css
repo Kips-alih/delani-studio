@@ -41,5 +41,7 @@
   text-transform: uppercase;
 }
 #whatWeDo h3{
-  text-transform: capitalize;
+  text-transform: uppercase;
+  font-style: normal;
+  font-size: 14px;
 }
