@@ -45,6 +45,9 @@
   font-style: normal;
   font-size: 14px;
 }
+#hide1,#hide2,#hide3{
+  display: none;
+}
 #portfolio{
   margin-top: 50px;
 }
