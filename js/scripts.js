@@ -28,6 +28,40 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
+  $(".work1").hover(function(){
+  $(".subtitle1").show("slow");
+  });
+
+  $(".work2").hover(function(){
+    $(".subtitle2").show("slow");
+    });
+
+  $(".work3").hover(function(){
+    $(".subtitle3").show("slow");
+    });
+
+  $(".work4").hover(function(){
+    $(".subtitle4").show("slow");
+    });
+
+  $(".work5").hover(function(){
+    $(".subtitle5").show("slow");
+    });
+
+  $(".work6").hover(function(){
+    $(".subtitle6").show("slow");
+    });
+
+  $(".work7").hover(function(){
+    $(".subtitle7").show("slow");
+    });
+
+  $(".work8").hover(function(){
+    $(".subtitle8").show("slow");
+    });
+});
+
+$(document).ready(function(){
   $("form#user").submit(function(event) {
     event.preventDefault();
 
