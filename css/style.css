@@ -67,6 +67,10 @@
   text-transform: uppercase;
   font-family: 'Righteous', cursive;
 }
+.portfolio-one img{
+  padding-left: 40px;
+  width: 100%;
+}
 .work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
   position: relative;
 }
@@ -85,8 +89,8 @@
   top: 5%;
   left: 15%;
   border: 3px solid white;
-  height: 90%;
-  width: 90%;
+  height: 80%;
+  width: 80%;
   color: white;
   text-transform: uppercase;
   font-weight: 700;
