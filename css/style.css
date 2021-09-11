@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;500&family=Permanent+Marker&family=Righteous&family=Ubuntu:ital,wght@1,700&display=swap');
 .top{
   background-image: url("../images/backgrounds/h_img.jpg");
   background-size: cover;
@@ -9,6 +10,7 @@
   padding-top: 50px;
   color: white;
   text-transform: uppercase;
+  font-family: 'Righteous', cursive;
 }
 .top>p{
   color: white;
@@ -23,6 +25,10 @@
 }
 #about h2{
   text-transform: uppercase;
+  font-family: 'Righteous', cursive;
+}
+#about{
+  font-family: 'Ubuntu', sans-serif;
 }
 #services{
   color: white;
@@ -33,17 +39,22 @@
   padding-bottom: 100px;
   padding-top: 100px;
 }
+#services{
+  font-family: 'Noto Sans JP', sans-serif;
+}
 #whatWeDo{
   margin-top: 50px;
 }
 #whatWeDo h2{
   padding-bottom: 15px;
   text-transform: uppercase;
+  font-family: 'Righteous', cursive;
 }
 #whatWeDo h3{
   text-transform: uppercase;
   font-style: normal;
   font-size: 14px;
+  font-family: 'Righteous', cursive;
 }
 #hide1,#hide2,#hide3{
   display: none;
@@ -54,6 +65,7 @@
 #portfolio>h2{
   padding-bottom: 10px;
   text-transform: uppercase;
+  font-family: 'Righteous', cursive;
 }
 .work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
   position: relative;
@@ -66,6 +78,7 @@
   left: 50%;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: 'Righteous', cursive;
 }
 .img-text{
   position: absolute;
@@ -92,6 +105,7 @@
 }
 #contactUs>h3{
   text-transform: uppercase;
+  font-family:'Righteous', cursive;
 
 }
 .form-control{
@@ -115,4 +129,5 @@ p.studio{
   text-transform: uppercase;
   margin-top: 25px;
   margin-bottom: 5px;
+  font-family: 'Permanent Marker', cursive;
 }
