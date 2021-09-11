@@ -55,8 +55,17 @@
   padding-bottom: 10px;
   text-transform: uppercase;
 }
-.work8{
+.work1,.work2,.work3,.work4,.work5,.work6,.work7,.work8{
   position: relative;
+}
+.subtitle1,.subtitle2,.subtitle3,.subtitle4,.subtitle5,.subtitle6,.subtitle7,.subtitle8{
+  display: none;
+  position: absolute;
+  color: aqua;
+  top: 50%;
+  left: 50%;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .img-text{
   position: absolute;
