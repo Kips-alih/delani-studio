@@ -79,3 +79,11 @@ input.form-control{
   margin-top: 10px;
   margin-bottom: 10px;
 }
+#social-icons{
+  margin-top: 50px;
+}
+p.studio{
+  text-transform: uppercase;
+  margin-top: 25px;
+  margin-bottom: 5px;
+}
