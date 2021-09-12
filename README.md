@@ -8,6 +8,7 @@ This is a a landing page for Delani Studio's website.The aim of this landing pag
 ## Setup/Installation Instructions.
 To access the landing page.
 * Click the [gh-pages](https://kips-alih.github.io/delani-studio/) link.
+ 
 To get the project into your local machine:
 * Open your terminal
 * Create a folder and navigate to the folder you created.
