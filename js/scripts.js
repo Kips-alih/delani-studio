@@ -75,5 +75,6 @@ $(document).ready(function(){
     else{
       alert("All fields required");
     }
+    $("form").trigger("reset");
   });
 });
