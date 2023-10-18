@@ -87,7 +87,7 @@ $(document).ready(function(){
 });
 
 $(document).ready(function(){
-  $("form#user").submit(function(event) {
+  $("form#contact-us").submit(function(event) {
     event.preventDefault();
 
     var userName=$("#name").val();

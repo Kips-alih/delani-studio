@@ -8,17 +8,28 @@
     <script src="./js/scripts.js"></script>
     <link rel="stylesheet" href="./css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="./css/style.css" rel="stylesheet" type="text/css">
-    <title>Delani Studio Landing Page</title>
+    <title>Nivy Ruto Virtual Assistance Page</title>
   </head>
   <body>
+    <header class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none px-5">
+          <h2 style="color: white; font-style: italic; font-weight: 900;font-family: Impact;">Designers Lounge</h2>
+
+      </a>
+
+      <ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-0">
+          <li><a href="index.html" class="nav-link px-5 link-dark">Home</a></li>
+          <li><a href="#about" class="nav-link px-5 link-dark">About</a></li>
+          <li><a href="#services" class="nav-link px-5 link-dark">Services</a></li>
+          <li><a href="#whatWeDo" class="nav-link px-5 link-dark">What we do</a></li>
+          <li><a href="#contactUs" class="nav-link px-5 link-dark">Contact Us</a></li>
+      </ul>
+  </header>
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-12  top  text-center">
-          <div class="logo">
-            <img src="./images/logo/logo.png" alt="logo">
-          </div>
           <h1>Welcome</h1>
-          <h1>to delani studio.</h1>
+          <h1>to Nivy Ruto Virtual Assistance Page.</h1>
           <p>amazing people are making amazing designs in a fun environment.</p>
           <div class="mouse-click">
             <a href="#about"><img src="./images/mouse_click.png" alt="mouse-click"></a>
@@ -45,7 +56,7 @@
     </div>
     <div class="container">
       <div class="row" id="whatWeDo">
-        <h2 class="text-center">what we do.</h2>
+        <h2 class="text-center">what I do.</h2>
         <div class="d-flex justify-content-evenly text-center">
           <div class="col-md-4"  id="design">
             <img class="design" src="./images/services_icons/design_icon.png" alt="design icon">
@@ -74,83 +85,45 @@
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row" id="portfolio">
-        <h2 class="text-center">portfolio</h2>
-        <div class="d-flex justify-content-evenly portfolio-one">
-          <div class="work1">
-            <img src="./images/portfolio/work4.jpg" alt="black-square">
-            <p class="subtitle1">black<br>square</p>
+    <div id="contactUs" class="container text-center">
+      <h3>Contact Us</h3>
+      <p>Get in touch with me today.</p>
+
+      <form id="contact-us" action="mailto:alphoncekipngeno@gmail.com" >
+        <div class="form-group justify-content-center row">
+          <div class="col-md-4">
+            <label for="fname">Your Name:</label>
+            <input class="form-control" placeholder="Nivy" id="name" type="text" required>
           </div>
-          <div class="work2">
-            <img src="./images/portfolio/work3.jpg" alt="ontario">
-            <p class="subtitle2">ontario</p>
+          <div class="col-md-4">
+            <label for="email">Email:</label>
+            <input class="form-control" id="email" placeholder="client@gmail.com" type="email" required>
           </div>
-          <div class="work3">
-            <img src="./images/portfolio/work2.jpg" alt="yellow">
-            <p class="subtitle3">yellow <br>pyramid</p>
-          </div>
-          <div class="work4">
-            <img src="./images/portfolio/work1.jpg" alt="jim-carrey">
-            <p class="subtitle4">jim<br>carrey</p>
+          <div class="col-md-8">
+            <label for="comment">Message:</label>
+            <textarea class="form-control" id="comment" placeholder="Type something..." type="text" rows="7" required></textarea>
           </div>
         </div>
-      </div>
-      <div class="row" id="portfolio">
-        <div class="d-flex justify-content-evenly portfolio-one">
-          <div class="work5">
-            <img src="./images/portfolio/work5.jpg" alt="good-day-app">
-            <p class="subtitle5">elena<br>app</p>
-          </div>
-          <div class="work6">
-            <img src="./images/portfolio/work6.jpg" alt="input-type-image">
-            <p class="subtitle6">input<br> type</p>
-          </div>
-          <div class="work7">
-            <img src="./images/portfolio/work7.jpg" alt="burned-logo">
-            <p class="subtitle7">Burned</p>
-          </div>
-          <div class="work8">
-            <img src="./images/portfolio/work8.jpg" alt="Giraffe-restuarant-logo">
-            <p class="subtitle8">Bailey<br>wonger</p>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid">
-      <div class="row text-center" id="contactUs">
-        <h3>contact Us</h3>
-        <form id="user">
-          <div class="form-group justify-content-center row">
-            <div class="col-md-5">
-              <input class="form-control" placeholder="Name...." id="name" type="text">
-            </div>
-            <div class="col-md-5">
-              <input class="form-control" id="email" placeholder="Email...." type="email">
-            </div>
-            <div class="col-md-8">
-              <input class="form-control " id="comment" placeholder="Your message here...." type="text">
-            </div>
-          </div>
-          <button id="submit" type="submit" class="btn btn-success">Submit</button>
-      
-        </form>
-      </div>
+        <input id="submit" type="submit" class="btn btn-success"></input>
+      </form>
+    
+
     </div>
     <div class="container-fluid footer row">
       <div id="social-icons" class="d-flex justify-content-center">
         <img src="./images/social_icons/twitter.png" alt="twitter">
-        <img src="./images/social_icons/dribble.png" alt="dribble">
+        <a href="https://web.whatsapp.com/"><img  height="50px" width="50px" src="./images/social_icons/whatsapp.svg" alt="whatsapp"></a>
         <img src="./images/social_icons/facebook.png" alt="facebook">
-        <img src="./images/social_icons/g_plus.png" alt="g_plus">
         <img src="./images/social_icons/skype.png" alt="skype">
         <img src="./images/social_icons/stumble_upon.png" alt="stumble_upon">
-        <img src="./images/social_icons/behance.png" alt="behance">
         <img src="./images/social_icons/pinterest.png" alt="pinterest">
-        <img src="./images/social_icons/flickr.png" alt="flickr">
       </div>
-      <p class="studio d-flex justify-content-center">delani studio</p>
-      <p class="copyright-year d-flex justify-content-center">2021</p>
+      <div class="d-flex justify-content-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"/></svg>
+        </a>
+        <span class="copyright">&copy; 2021 Nivy Ruto, Inc</span>
+      </div>
 
     </div>
   </body>
